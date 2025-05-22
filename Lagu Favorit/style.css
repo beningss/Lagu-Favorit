@@ -1,0 +1,101 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    max-width: 900px;  
+    margin: 40px auto;
+    padding: 20px;
+    
+    
+}
+.lagu{
+    border-radius: 15px;
+    box-shadow: 0 0 10px #f375c2;
+    border: 1px solid rgb(255, 255, 255);
+    width: 30%;
+    padding: 5px;
+}
+.lagu:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.title{
+    color: gray;
+    text-align: center;
+}
+.lagu img{
+    display: block;
+    margin: auto;
+    width:55%;
+    border-radius: 100%;
+}
+.song{
+    text-align: center;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.audio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px; 
+}
+
+.audio-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.audio-controls button:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+}
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.skpt {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.skpt i {
+    font-size: 16px;
+    color: #666;
+}
+#list {
+    display: flex;
+    position: fixed;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(209, 141, 164);
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    height: 20px;
+    width: 70;
+}
+.favorit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
